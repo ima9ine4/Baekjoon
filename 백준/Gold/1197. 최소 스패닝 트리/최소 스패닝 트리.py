@@ -4,9 +4,8 @@ v,e = map(int, input().split())
 arr = []
 visited =[]
 answer = 0;
-for _ in range(v+1):
-    arr.append([])
-    visited.append(0)
+arr = [[] for _ in range(v+1)]
+visited =[0 for _ in range(v+1)]
 
 for _ in range(e):
     a,b,c = map(int,input().split())
