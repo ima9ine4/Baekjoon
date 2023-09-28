@@ -1,4 +1,5 @@
-import heapq
+import heapq, sys
+input = sys.stdin.readline
 
 n = int(input())
 m = int(input())
